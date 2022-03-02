@@ -65,3 +65,11 @@ My 42 intra profile: https://profile.intra.42.fr/users/samoreno
 | ft_lstclear.c | Deletes and frees the given element and every successor of that element, using the function _del_ and free. Finally, the pointer to the list must be set to NULL. | See: man free |
 | ft_lstiter.c | Iterates the list _lst_ and applies the function _f_ to the content of each element. | |
 | ft_lstiter.c | Iterates the list _lst_ and applies the function _f_ to the content of each element. Creates a new list resulting of the successive applications of the function _f_. The _del_ function is used to delete the content of an element if needed. | See: man malloc and man free |
+
+## Usage
+With the Makefile you can compile the library directly. The rules that it allows are:
+- Make: it compiles directly the mandatory part
+- Make re: if the project is already compiled, it does it again
+- Make bonus: it compiles directly the bonus part
+- Make clean. Deletes all .o files but the executable remains
+- Make fclean: deletes all .o files and the executable
