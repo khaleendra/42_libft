@@ -1,4 +1,4 @@
-# 42_libft
+# libft [![samoreno's 42 Libft Score](https://badge42.vercel.app/api/v2/cl8uf09z900060gl2pg6sdczb/project/2397782)](https://github.com/JaeSeoKim/badge42)
 ## Project description
 The first proyect of 42 cursus: creating a library with some functions that will be useful later on.
 
